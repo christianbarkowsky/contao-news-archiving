@@ -3,7 +3,8 @@ services:
         autowire: true
         autoconfigure: true
         bind:
-            $generalLogger: '@monolog.logger.contao.general'
+            $projectDir: '%kernel.project_dir%'
     
     InspiredMinds\ContaoNewsArchiving\:
         resource: ../src
+        exclude: ../src/{ContaoManager,DependencyInjection,ContaoNewsArchivingBundle.php}
