@@ -5,8 +5,7 @@ Contao News Archiving
 =====================
 
 Contao extension to automatically move news entries to a different archive (or delete them) after a period of time or due to the stop time of the news entry.
-
-**You can find the settings in each news archive.**
+This can be configured in the settings of each news archive.
 
 ![screenshot](https://raw.githubusercontent.com/fritzmg/contao-news-archiving/master/screenshot.png)
 
